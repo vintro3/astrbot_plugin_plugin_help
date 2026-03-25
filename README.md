@@ -1,14 +1,23 @@
-# astrbot-plugin-helloworld
+# plugin_help 插件指令帮助
 
-AstrBot 插件模板 / A template plugin for AstrBot plugin feature
+对于大多数 bot 而言，所使用的插件都不会是仅一两个。插件多了便不好记忆具体插件及对应指令，本插件即用于了解 bot 所安装的插件及所包含的指令。
 
-> [!NOTE]
-> This repo is just a template of [AstrBot](https://github.com/AstrBotDevs/AstrBot) Plugin.
-> 
-> [AstrBot](https://github.com/AstrBotDevs/AstrBot) is an agentic assistant for both personal and group conversations. It can be deployed across dozens of mainstream instant messaging platforms, including QQ, Telegram, Feishu, DingTalk, Slack, LINE, Discord, Matrix, etc. In addition, it provides a reliable and extensible conversational AI infrastructure for individuals, developers, and teams. Whether you need a personal AI companion, an intelligent customer support agent, an automation assistant, or an enterprise knowledge base, AstrBot enables you to quickly build AI applications directly within your existing messaging workflows.
+## 指令
+@bot /菜单 --- 回复已安装的所有插件。
 
-# Supports
+@bot /菜单 插件名 --- 回复该插件的所有指令。
 
-- [AstrBot Repo](https://github.com/AstrBotDevs/AstrBot)
-- [AstrBot Plugin Development Docs (Chinese)](https://docs.astrbot.app/dev/star/plugin-new.html)
-- [AstrBot Plugin Development Docs (English)](https://docs.astrbot.app/en/dev/star/plugin-new.html)
+<small>输入插件名可以不全，如果出现多个匹配结果会提示。</small>
+
+
+
+## 注
+本插件会同时在匹配到使用所有指令时，拦截大模型 LLM 输出，以避免答非所问。
+
+
+
+
+
+
+
+**目前仅测试过qq，其他应用能否使用未知**
