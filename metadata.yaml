@@ -1,6 +1,6 @@
 name: astrbot_plugin_plugin_help
 display_name: 插件指令帮助
-desc: 与JSON中提交的desc "对于大多数 bot 而言，所使用的插件都不会是仅一两个。插件多了便不好记忆具体插件及对应指令，本插件即用于查询 bot 所安装的插件及所包含的指令。
+desc: "对于大多数 bot 而言，所使用的插件都不会是仅一两个。插件多了便不好记忆具体插件及对应指令，本插件即用于查询 bot 所安装的插件及所包含的指令。
 version: v1.0 
 author: vintro 
 repo: https://github.com/vintro3/astrbot_plugin_plugin_help 
