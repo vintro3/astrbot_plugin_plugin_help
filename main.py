@@ -8,7 +8,7 @@ try:
 except ImportError:
     star_handlers_registry = []
 
-@register("command_menu", "Developer", "自动分类读取并展示已加载插件的指令列表", "1.0")
+@register("plugin_help", "Developer", "自动分类读取并展示已加载插件的指令列表", "1.0")
 class CommandMenu(Star):
     def __init__(self, context: Context):
         super().__init__(context)
